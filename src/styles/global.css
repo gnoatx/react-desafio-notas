@@ -1,0 +1,49 @@
+:root {
+    --bg-dark: rgb(32, 32, 32);
+    --card-light: rgb(211, 211, 211);
+    --neon-shadows: 5px 5px 10px cyan, -5px -5px 10px magenta, -5px 5px 10px blueviolet, 5px -5px 10px blueviolet;
+    --dark-lights: drop-shadow(0 0 2px #5D0CED);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--bg-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+p {
+    color: #70747a;
+}
+
+a {
+    text-decoration: none;
+}
+
+button, input, textarea, a {
+    border: 0;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* button:hover {
+    filter: brightness(110%);
+}
+
+button:active {
+    filter: brightness(90%);
+} */

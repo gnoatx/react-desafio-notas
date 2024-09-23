@@ -1,0 +1,40 @@
+.note {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--card-light);
+    width: 500px;
+    border-radius: 8px;
+    border: 3px solid white;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-wrap: wrap;
+    word-break: break-word;
+}
+
+.text {
+    text-wrap: wrap;
+    word-break: break-word;
+    color: var(--bg-dark);
+}
+
+.content {
+    padding: 10px 20px;
+    width: 460px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.button {
+    background-color: transparent;
+}
+
+.buttonIcon {
+    filter: var(--dark-lights);
+}
